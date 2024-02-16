@@ -23,12 +23,15 @@
 
     <div id="app">
 
-        <h1 :class="testo">
-            {{ saluto }}
-        </h1>
+        
 
+         <h1>
+           {{saluto}}
+         </h1>
 
-        <input type="text" v-model="saluto">
+         <div>
+            <img src="" alt="">
+         </div>
 
     </div>
 
@@ -44,8 +47,8 @@
                 return {
                     // tutti i nostri dati
 
-                    saluto: "Ciao a tutti ragazzi!",
-                    testo: "url",
+                    saluto: "Ciao ragazzi sono Alan!",
+                    immagine: "",
                     
                 }
             }
